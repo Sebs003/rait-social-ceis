@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.A.I.T SOCIAL CEIS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#3B82F6",
+              secondary: "#10B981",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-sans bg-gray-100">
+    <header class="bg-transparent backdrop-blur-sm shadow-md fixed w-full z-10">
+      <nav class="container mx-auto px-6 py-3">
+        <div class="flex justify-between items-center">
+          <a href="#" class="text-2xl font-bold text-primary"
+            >R.A.I.T SOCIAL CEIS</a
+          >
+          <div class="hidden md:flex space-x-4">
+            <a href="#home" class="text-gray-800 hover:text-primary transition"
+              >Inicio</a
+            >
+            <a href="#about" class="text-gray-800 hover:text-primary transition"
+              >Acerca de nosotros</a
+            >
+            <a
+              href="#services"
+              class="text-gray-800 hover:text-primary transition"
+              >Servicios</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-800 hover:text-primary transition"
+              >Contacto</a
+            >
+          </div>
+          <button class="md:hidden focus:outline-none">
+            <i class="fas fa-bars text-primary"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="pt-24 pb-12 md:pt-32 md:pb-24" style="background-image: url('https://www.transparenttextures.com/patterns/batthern.png'); background-attachment: fixed;">
+        <div class="container mx-auto px-6">
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+              <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+                ¡Bienvenido a RAIT Social CEIS!
+              </h1>
+              <p class="text-xl text-gray-600 mb-8 mr-4">
+                Tu espacio para recibir atención y apoyo desde diversas
+                disciplinas de salud. Aquí podrás agendar citas de forma fácil y
+                segura, con el respaldo de un equipo comprometido en promover el
+                bienestar familiar.
+              </p>
+              <a
+                href="booking.html"
+                class="bg-primary text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-600 transition"
+                >Agendar una cita</a
+              >
+            </div>
+
+            <div class="md:w-1/2">
+              <div
+                class="relative h-64 md:h-96 overflow-hidden rounded-lg shadow-xl"
+              >
+                <div
+                  class="absolute inset-0 flex transition-transform duration-1000 ease-in-out"
+                >
+                  <img
+                    src="./img/featurette2.jpg"
+                    alt="Slide 1"
+                    class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000 ease-in-out"
+                  />
+                  <img
+                    src="./img/featurette3.jpg"
+                    alt="Slide 2"
+                    class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000 ease-in-out"
+                  />
+                  <img
+                    src="./img/slide2.jpg"
+                    alt="Slide 3"
+                    class="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000 ease-in-out"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+            Acerca de nosotros
+          </h2>
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+              <img
+                src="./img/featurette1.jpg"
+                alt="Acerca de Nosotros"
+                class="rounded-lg shadow-lg saturate-150"
+              />
+            </div>
+            <div class="md:w-1/2 md:pl-12">
+              <p class="text-gray-600 mb-6">
+                En RAIT Social CEIS, brindamos atención integral en salud para
+                familias y primera infancia, combinando apoyo en Psicología,
+                Medicina Integral y Trabajo Social. Nuestro compromiso es
+                mejorar el bienestar familiar con servicios accesibles y
+                confidenciales.
+              </p>
+              <a href="#" class="text-primary font-semibold hover:underline"
+                >Conoce nuestra misión</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+          <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">
+            Nuestros Servicios
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+              class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition"
+            >
+              <i class="fas fa-user-md text-4xl text-primary mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Medicina Integral</h3>
+              <p class="text-gray-600">
+                Atención médica completa para mejorar la salud física de cada
+                miembro de la familia.
+              </p>
+            </div>
+            <div
+              class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition"
+            >
+              <i class="fas fa-brain text-4xl text-primary mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Psicología</h3>
+              <p class="text-gray-600">
+                Apoyo psicológico para promover el bienestar emocional y el
+                desarrollo personal.
+              </p>
+            </div>
+            <div
+              class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition"
+            >
+              <i class="fas fa-hands text-4xl text-primary mb-4"></i>
+              <h3 class="text-xl font-semibold mb-2">Trabajo Social</h3>
+              <p class="text-gray-600">
+                Asesorías y seguimiento social para fortalecer la dinámica
+                familiar y comunitaria.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8" id="contact" style="background-image: url('https://www.transparenttextures.com/patterns/black-linen.png');">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <h3 class="text-2xl font-bold">R.A.I.T SOCIAL CEIS</h3>
+            <p class="text-gray-400">
+              Apoyando familias y comunidades para un bienestar integral.
+            </p>
+          </div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-gray-400 hover:text-white transition"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="mt-8 text-center text-gray-400 text-sm">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          R.A.I.T SOCIAL CEIS.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const slides = document.querySelectorAll(".relative img");
+      let currentSlide = 0;
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.add("opacity-0"); // Ocultar todos los slides
+          slide.classList.remove("opacity-100"); // Quitar opacidad completa
+          slide.style.transform = "translateX(100%)"; // Posicionar fuera del viewport
+        });
+        slides[index].classList.remove("opacity-0"); // Mostrar el slide actual
+        slides[index].classList.add("opacity-100"); // Añadir opacidad completa
+        slides[index].style.transform = "translateX(0)"; // Posicionar en el viewport
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+      }
+
+      // Inicializa el slider mostrando el primer slide
+      showSlide(0);
+
+      // Avanza automáticamente cada 5 segundos
+      setInterval(nextSlide, 5000);
+    </script>
+  </body>
+</html>
